@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2e;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    flex: 1;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #44475a;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    background: #ff5555;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.task-buttons button.edit {
+    background: #ffaa00;
+}
+
+.task-buttons button.complete {
+    background: #50fa7b;
+}
